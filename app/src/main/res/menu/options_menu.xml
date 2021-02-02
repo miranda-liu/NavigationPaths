@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- To make it work with the navgraph nicely, make sure the id of the menu item
+            matches the id of the destination in the navigation graph-->
+    <item
+        android:id="@+id/aboutFragment"
+        android:title="About Fragment" />
+    <item
+        android:id="@+id/thirdFragment"
+        android:title="Third Fragment" />
+</menu>
